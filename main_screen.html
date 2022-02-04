@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<script defer src="renderer.js"></script>
+<html>
+  <head><link rel="stylesheet" href="main_screen.scss"></head>
+  <body>
+    <div class="browser">
+      <div class="title-bar">
+        <div class="btns">
+          <div class="close"></div>
+          <div class="min"></div>      
+          <div class="max"></div> 
+        </div>
+        <div class="location-bar"></div>
+      </div>
+    </div>
+    <section class="container">
+      <div class="heading">
+        <img class="heading__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/laptop.svg">
+        <h1 class="heading__title">To-Do List</h1>
+      </div>
+      <form class="form">
+        <div>
+          <label class="form__label" for="todo">~ Today I need to ~</label>
+          <input class="form__input"
+               type="text"
+               id="todo"
+               name="to-do"
+               size="30"
+               required>
+          <button class="button"><span>Add</span></button>
+        </div>
+      </form>
+      <div>
+        <ul class="toDoList">
+        </ul>
+      </div>
+    </section>
+    <div class="spinner-box">
+        <div class="blue-orbit leo">
+        </div>
+      
+        <div class="green-orbit leo">
+        </div>
+        
+        <div class="red-orbit leo">
+        </div>
+        
+        <div class="white-orbit w1 leo">
+        </div><div class="white-orbit w2 leo">
+        </div><div class="white-orbit w3 leo">
+        </div>
+      </div>
+      
+  </body>
+</html>

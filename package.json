@@ -1,0 +1,17 @@
+{
+    "name": "projects",
+    "version": "1.0.0",
+    "description": "this is an app that  will take ",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "AntoniosKalattas",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "electron": "^15.3.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.2.0"
+    }
+}
