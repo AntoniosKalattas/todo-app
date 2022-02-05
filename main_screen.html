@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<script defer src="renderer.js"></script>
+<script src="https://use.fontawesome.com/5b3ad5e039.js"></script>
+<script src="https://kit.fontawesome.com/5e92066943.js" crossorigin="anonymous"></script>
 <html>
-  <head><link rel="stylesheet" href="main_screen.scss"></head>
+  <head>
+    <link rel="stylesheet" href="main_screen.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
   <body>
-    <div class="browser">
-      <div class="title-bar">
-        <div class="btns">
-          <div class="close"></div>
-          <div class="min"></div>      
-          <div class="max"></div> 
-        </div>
-        <div class="location-bar"></div>
+    <div class="header1">
+      <div class="tooltip">
+        <i class="fas fa-question-circle"></i>
+        <span class="tooltiptext">How To Use: <br>
+          delete: right click,<br>
+          To import/backup, just add/edit the data.txt
+        </span>
       </div>
+      <i class="far fa-times-circle" onclick="cdc()"></i>
     </div>
     <section class="container">
       <div class="heading">
@@ -35,21 +39,7 @@
         </ul>
       </div>
     </section>
-    <div class="spinner-box">
-        <div class="blue-orbit leo">
-        </div>
-      
-        <div class="green-orbit leo">
-        </div>
-        
-        <div class="red-orbit leo">
-        </div>
-        
-        <div class="white-orbit w1 leo">
-        </div><div class="white-orbit w2 leo">
-        </div><div class="white-orbit w3 leo">
-        </div>
-      </div>
-      
   </body>
+  <script defer src="renderer.js"></script>
+
 </html>

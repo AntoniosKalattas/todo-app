@@ -1,4 +1,5 @@
 const { spawn } = require('child_process');
+const fs = require('fs')
 
 window.addEventListener('DOMContentLoaded', () => {
     const replaceText = (selector, text) => {
