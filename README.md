@@ -9,3 +9,6 @@ Todo app is a very easy to use app where you can manage your todo list.
 
 # How to use:
 Are you retarded?
+
+# TODD:
+[x] Android Version
